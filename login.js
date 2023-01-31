@@ -27,6 +27,12 @@ function login(){
         console.log("Login")
         window.location.href = window.location.origin+'/buyer.html'
     }
+    else{
+        alert('Wrong Password')
+    }
+    if(a<0){
+        alert('User not found')
+    }
 }
 
 function register(){
