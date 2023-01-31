@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+:root {
+    background-color: #F5F5F5;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background: -webkit-radial-gradient(center, ellipse, #16A6BF 0, #16A6B6 100%);
+    background: radial-gradient(ellipse at center, #16A6BF 0, #16A6B6 100%);
+    padding: 25px 15px 25px 10px;
+    font: 12px 'Source Sans Pro', sans-serif;
+    color: #888;
+    text-shadow: -1px 1px 3px #888;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    margin: -10px -15px 30px -10px;
+    ;
+    color: #000;
+}
+
+h1>span {
+    display: block;
+    font-size: 11px;
+}
+
+label {
+    display: block;
+    margin: 0px;
+}
+
+label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #000;
+}
+
+input[type="text"],
+textarea,
+select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 60%;
+    font-size: 12px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 2px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 2px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 2px #ECECEC;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 63%;
+    height: 35px;
+    line-height: 25px;
+}
+
+.button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    width: 150px;
+}
+
+.button:hover {
+    background: #CF7A7A
+}
+
+.zone {
+    font: 12px 'Source Sans Pro', sans-serif;
+    background: -webkit-radial-gradient(center, ellipse, #16A6BF 0, #16A6B6 100%);
+    background: radial-gradient(ellipse at center, #16A6BF 0, #16A6B6 100%);
+    margin: auto;
+    margin-top: 50px;
+    height: 150px;
+    border: 5px dashed white;
+    text-align: center;
+    color: white;
+    z-index: 20;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05), inset 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+}
+
+.zone .selectFile {
+    height: 50px;
+    margin: 20px auto;
+    position: relative;
+    width: 200px;
+}
+
+.zone label,
+.zone input {
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.zone label {
+    background: #fff;
+    color: #EB6A5A;
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 50px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: 0 1px 1px gray;
+}
+
+.zone input[type=file] {
+    opacity: 0;
+}
+
+.hover {
+    color: gray;
+    border-color: white;
+    background: #fff;
+    height: 150px;
+}
+
+#blah {
+    width: 380px;
+    /*border:red 1px solid;*/
+    
+    float: left;
+    margin-left: 12px;
+}
+
+#ITWORKS {
+    width: 100%;
+}
+
+.eliminate {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    padding: 0 .3em;
+    background-color: #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    height: 130px;
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 8px solid rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    background-color: #FFF;
+}
+
+#KKK {
+    color: #FFF;
+    background-color: #FFF;
+    height: 75px;
+    text-align: center;
+}
+
+#KKK>h1 {
+    color: #FFF;
+    text-align: left;
+}
+
+#KKK>h2 {
+    margin-top: -20px;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+}
+
+#Coffee-Anyone {
+    display: flex;
+    width: 870px;
+    margin: auto;
+}
+
+#left {
+    min-width: 400px;
+    max-width: 400px;
+}
+
+#right {
+    min-width: 420px;
+    max-width: 420px;
+}
+label.tooltip{
+    
+    margin-top:-15px;
+}
+label.tooltip::before {
+    content: attr(data-tip);
+    border:1px solid red;
+    z-index: 999;
+    white-space:nowrap;
+    background:#E27575;
+    color:#e0e0e0;
+    opacity: 0; 
+    transition:opacity 0.2s ease-out;
+    }
+label.tooltip:hover::before {
+    opacity: 1;
+    bottom:-35px;
+    }
+label>span {
+    color:white;
+    }
